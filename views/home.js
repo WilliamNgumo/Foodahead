@@ -1,7 +1,7 @@
 import html from "html-literal";
 import image1 from "url:../assets/Untitled_design-removebg-preview.png";
 import image2 from "url:../assets/Red Illustrative Burger Food Logo.jpg";
-// import image3 from "url:../assets/Screenshot 2025-01-15 at 11.39.27AM.png";
+
 
 
 export default state => html`<main>
@@ -98,7 +98,7 @@ export default state => html`<main>
 
 
   <div class="home-banner">
-    <!-- <img src="${image3}" width="600"  height="400" alt="logo"> -->
+
     <a class="button-homer2 " href="/resturant2"><--CHECK US OUT</a>
     <p>"Best Burgers in Town Order Ahead Now"</p>
 
