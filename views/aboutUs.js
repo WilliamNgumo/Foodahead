@@ -1,8 +1,5 @@
 import html from "html-literal";
-
 import pictureOfMe from "../assets/IMG_3825.jpeg";
-import video1 from "url:../assets/3015488-hd_1920_1080_24fps.mp4";
-import video2 from "url:../assets/3195369-uhd_3840_2160_25fps.mp4";
 import logo from "url:../assets/Untitled_design-removebg-preview.png";
 
 
@@ -11,14 +8,10 @@ export default () => html`<main>
 
 <div class="Statement">
 <div class="sonk">
-  <video class="video" autoplay muted loop playsinline>
-    <source src="${video1}" type="video/mp4">
-    </video>
+
     <img src="${logo}" alt="picture of me" width="100" height="auto">
     <p>“Find Your Perfect Meal, OrderAhead, Enjoy”</p>
-    <video class="video" autoplay muted loop playsinline >
-      <source src="${video2}" type="video/mp4">
-      </video>
+
 </div>
 
 

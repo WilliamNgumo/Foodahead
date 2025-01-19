@@ -1,7 +1,5 @@
 import html from "html-literal";
 
-
-import Video801 from "url:../assets/8030857-hd_1920_1080_30fps.mp4"
 import image1 from "url:../assets/pexels-chevanon-312418.jpg"
 import image2 from "url:../assets/pexels-pixabay-50593.jpg"
 import image3 from "url:../assets/pexels-asphotograpy-96620.jpg"
@@ -57,13 +55,6 @@ export default state => html`<main class="doctor">
 
 
 </div>
-  <!-- <video autoplay muted loop class="r1-vid">
-    <source src="${Video801}" type="video/mp4">
-  </video> -->
-
-
-</video>
-
 
 </div>
 

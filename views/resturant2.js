@@ -1,7 +1,7 @@
 import html from "html-literal";
 
 
-import vid1 from "url:../assets/5488025-hd_1920_1080_25fps.mp4"
+
 import pic2 from "url:../assets/Red Illustrative Burger Food Logo.jpg"
 import pic3 from "url:../assets/pexels-valeriya-580612.jpg"
 import pic4 from "url:../assets/pexels-gezerasph-23910872.jpg"
@@ -19,9 +19,7 @@ export default state => html`<main class= "r2-main-Back">
 
 
 <div class="r2-resturant-hero">
-  <video autoplay muted loop class="r2-hero-video">
-    <source src="${vid1}" type="video/mp4">
-  </video>
+
   <div class="r2-Hero-text">
     <img src="${pic2}" width="200"  height="outo"  alt="logo">
 
