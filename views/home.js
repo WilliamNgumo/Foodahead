@@ -1,5 +1,4 @@
 import html from "html-literal";
-import heroVideo from "url:../assets/3296402-uhd_4096_2160_25fps.mp4";
 import image1 from "url:../assets/Untitled_design-removebg-preview.png";
 import image2 from "url:../assets/Red Illustrative Burger Food Logo.jpg";
 import image3 from "url:../assets/Screenshot 2025-01-15 at 11.39.27 AM.png"
@@ -12,20 +11,13 @@ export default state => html`<main>
   </h3> -->
 <div class="h-hero">
 
-  <!-- <video autoplay muted loop playsinline class="hero-video">
-      <source src="${heroVideo}" type= video/mp4 />
-      <source src="assets/3296402-uhd_4096_2160_25fps.mp4" type="video/webm">
-      Your browser does not support the video tag.
-    </video> -->
+
     <img src="${image1}" width="200"  height="outo" alt="logo">
 
 
     <div class="h-content">
 
-    <!-- <video class="h-video" autoplay muted loop controls>
-      <source src="assets/3296402-uhd_4096_2160_25fps.mp4" type="video/mp4">
 
-      </video> -->
 
 
 
