@@ -53,8 +53,17 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Fried Rice <span>$14</span></h5>
           <p> Stir-fried rice mixed with vegetables, eggs, and sometimes meat or seafood.</p>
+          <label for="Fried-Rice-quantity">Quantity</label>
+          <input type="number" id="Fried-Rice-quantity" name="quantity" value="1" min="1" required>
+          <button  onclick="addToCart('Fried Rice', 14, 'Fried-Rice-quantity')">Add To Cart</button>
+
         </div>
+
+
       </div>
+      <form  id="addToCartForm" onsubmit="formSubmit(event)" >
+
+    </form>
 
       <div class="r5-single-menu">
         <img src="${image5}" alt="">
@@ -132,12 +141,89 @@ export default state => html`<main>
 
 
 
+
+
+
+        <!-- NEW ADDED JUST NOW -->
+
+        <section id="order">
+    <form
+      id="order"
+      method="POST"
+      action="https://sc-pizza-api.onrender.com/pizzas/form"
+    >
+      <h2>Order NOW</h2>
+      <div>
+        <label for="customer">Customer</label>
+        <input
+          type="text"
+          name="customer"
+          id="customer"
+          placeholder="Enter Customer Name"
+        />
+      </div>
+
+
+      <div id="toppings-wrapper">
+        <b>Toppings:</b>
+        <input
+          type="checkbox"
+          id="chicken-toppings-checkbox"
+          name="toppings"
+          value="Fried Rice"
+        />
+        <label for="chicken-toppings-checkbox">Lo Mein</label>
+        <input
+          type="checkbox"
+          id="pepperoni-toppings-checkbox"
+          name="toppings"
+          value="Lo Mein"
+        />
+        <label for="pepperoni-toppings-checkbox">Dumplings</label>
+        <input
+          type="checkbox"
+          id="ham-toppings-checkbox"
+          name="toppings"
+          value="Dumplings"
+        />
+        <label for="ham-toppings-checkbox">MoonCakes</label>
+        <input
+          type="checkbox"
+          id="onion-toppings-checkbox"
+          name="toppings"
+          value="MoonCakes"
+        />
+        <label for="onion-toppings-checkbox">Sesame Balls</label>
+        <input
+          type="checkbox"
+          id="mushroom-toppings-checkbox"
+          name="toppings"
+          value="Sesame Balls"
+        />
+        <label for="mushroom-toppings-checkbox">Mango Pudding</label>
+        <input
+          type="checkbox"
+          id="cheese-toppings-checkbox"
+          name="toppings"
+          value="Mango Pudding"
+        />
+        <label for="cheese-toppings-checkbox">Extra Cheese</label>
+      </div>
+      <input type="submit" name="submit" value="Add To Cart" />
+    </form>
+  </section>
+
+
+
+
   </div>
+
 </section>
 
 
 
 </div>
+
 
 
 
