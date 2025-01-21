@@ -1,8 +1,6 @@
 // 'Import' the Express module instead of http
 import express from 'express';
-
-
-
+import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 // Load environment variables from .env file
 dotenv.config();
@@ -12,6 +10,14 @@ const PORT = process.env.PORT || 4040;
 // Initialize the Express application
 const app = express();
 
+// Connect to MONGODB
+mongoose.connect(process.env.MONGODB);
+const db = mongoose.connection;
+db.on("error", console.error.bind(console, "Connection Error:"));
+db.once(
+  "open",
+  console.log.bind(console, "Successfully opened connection to Mongo!")
+);
 
 const logging = (request, response, next) => {
   console.log(`${request.method} ${request.url} ${new Date().toLocaleString("en-us")}`);
