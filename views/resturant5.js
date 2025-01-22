@@ -44,7 +44,7 @@ export default state => html`<main>
     <p>restaurant Italian cuisine</p>
   </div>
   <div class="r5-menus">
-    <img src="${image11}" width="300"  height="500px"  alt="italina logo">
+    <!-- <img src="${image11}" width="300"  height="500px"  alt="italina logo"> -->
 
     <div class="r5-menu-column">
       <h4>Foods</h4>
@@ -53,17 +53,12 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Fried Rice <span>$14</span></h5>
           <p> Stir-fried rice mixed with vegetables, eggs, and sometimes meat or seafood.</p>
-          <label for="Fried-Rice-quantity">Quantity</label>
-          <input type="number" id="Fried-Rice-quantity" name="quantity" value="1" min="1" required>
-          <button  onclick="addToCart('Fried Rice', 14, 'Fried-Rice-quantity')">Add To Cart</button>
 
         </div>
 
 
       </div>
-      <form  id="addToCartForm" onsubmit="formSubmit(event)" >
 
-    </form>
 
       <div class="r5-single-menu">
         <img src="${image5}" alt="">
@@ -146,7 +141,7 @@ export default state => html`<main>
 
         <!-- NEW ADDED JUST NOW -->
 
-        <section id="order">
+    <section id="order">
     <form
       id="order"
       method="POST"
@@ -207,8 +202,9 @@ export default state => html`<main>
           name="toppings"
           value="Mango Pudding"
         />
-        <label for="cheese-toppings-checkbox">Extra Cheese</label>
+        <label for="cheese-toppings-checkbox">SPRITE</label>
       </div>
+      <label for="mushroom-toppings-checkbox">Tottal Price = $150</label>
       <input type="submit" name="submit" value="Add To Cart" />
     </form>
   </section>

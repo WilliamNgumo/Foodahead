@@ -2,6 +2,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import Orders from './routers/orders';
+
 // Load environment variables from .env file
 dotenv.config();
 
@@ -52,6 +54,10 @@ app.get("/status", (request, response) => {
   response.send(JSON.stringify({ message: "Service healthy" }));
 });
 
+app.use("./orders", Orders);
+
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+
+
