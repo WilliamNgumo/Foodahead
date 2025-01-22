@@ -2614,12 +2614,18 @@ align-content: center;
 .popularCuisines {
   padding: 20px;
   text-align: center;
+
   background-image: url(assets/pexels-valeriya-1639563.jpg) ;
   background-attachment: fixed;
   background-size: cover;
   height: 80vh;
   background-position: center;
 
+
+}
+.popularCuisines::before {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .popularCuisines> h2 {
@@ -2638,12 +2644,16 @@ align-content: center;
 }
 .h-p-card {
   background: transparent;
-  padding: 15px;
+  /* background: #b78d42; */
+  padding: 1px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   border: 5px solid #b78d42;
+  text-shadow: 0 0 5px #f39c12, 0 0 10px #f39c12, 0 0 20px #f39c12, 0 0 40px #e67e22, 0 0 80px #e74c3c;
+  /* animation: jump 1s infinite; */
+
   /* width: 300px;
   height: 400px; */
 
@@ -2703,11 +2713,18 @@ align-content: center;
   transform: scale(1.05);
 }
 
-.topRatedRes {
+.testimonial {
   padding: 20px;
   text-align: center;
+  padding: 20px;
+  text-align: center;
+  background-image: url(assets/pexels-valeriya-1639563.jpg) ;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
 }
-.topRatedRes> h2 {
+.testimonial> h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
   color: #b78d42;

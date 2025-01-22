@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import MenuItem from "./MenuItem";
+import MenuItem from "./MenuItem.js";
 
 const orderSchema = new mongoose.Schema({
   menuItems: [MenuItem.schema]

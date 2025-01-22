@@ -15,7 +15,7 @@ const menuitemSchema = new mongoose.Schema({
     required: true
   },
   minutes: {
-    type: number,
+    type: Number,
     required: true
   }
 

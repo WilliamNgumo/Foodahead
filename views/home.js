@@ -4,6 +4,10 @@ import image2 from "url:../assets/Red Illustrative Burger Food Logo.jpg";
 import image3 from "url:../assets/Brown Beige Circle Chinese Food Logo.jpg";
 import image4 from "url:../assets/Navy Blue and Cream Italian Restaurant Logo (1).jpg"
 import image5 from "url:../assets/Green And Maroon Retro Royal Indian Food Restaurant Batch Logo (1).jpg"
+import image6 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post .jpg"
+import image7 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (1).jpg"
+import image8 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (2).jpg"
+import image9 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (3).jpg"
 
 
 
@@ -92,6 +96,24 @@ export default state => html`<main>
 
       </a>
     </div>
+    <div class="h-p-card">
+      <div class="H-able-3">
+        <img src="${image3}" width="100"  height="outo" alt="logo">
+      </div>
+      <a href="/resturant2">
+        <h3>Click Here</h3>
+
+      </a>
+    </div>
+    <div class="h-p-card">
+      <div class="H-able-3">
+        <img src="${image3}" width="100"  height="outo" alt="logo">
+      </div>
+      <a href="/resturant2">
+        <h3>Click Here</h3>
+
+      </a>
+    </div>
   </div>
   <br>
 </section>
@@ -142,47 +164,27 @@ export default state => html`<main>
 
 
 
-<section class="topRatedRes">
-  <h2>Top Rated Order Ahead Restaurants</h2>
-  <div class="h-card">
-    <div class="h-p-card">
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
+<section class="testimonial">
+  <h2>HERE IS WHAT PEOPLE ARE SAYING ABOUT FOODAHEAD</h2>
+  <div class="image-slider">
+    <div class="image-item">
+      <img src="${image6}" alt="image1">
     </div>
-    <div class="h-p-card">
-
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
+    <div class="image-item">
+      <img src="${image7}" alt="image1">
     </div>
-    <div class="h-p-card">
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
+    <div class="image-item">
+      <img src="${image8}" alt="image1">
     </div>
-    <div class="h-p-card">
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
+    <div class="image-item">
+      <img src="${image9}" alt="image1">
     </div>
-    <div class="h-p-card">
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
-    </div>
-    <div class="h-p-card">
-      <a href="/resturant2">
-        <h3>Restaurant Name</h3>
-
-      </a>
+    <div class="image-item">
+      <img src="" alt="image1">
     </div>
   </div>
+
+
 </section>
 
 

@@ -53,8 +53,10 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Fried Rice <span>$14</span></h5>
           <p> Stir-fried rice mixed with vegetables, eggs, and sometimes meat or seafood.</p>
+          <input id="friedRice" name="input" type="submit" value="Add To Cart"/>
 
         </div>
+
 
 
       </div>
@@ -65,6 +67,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Lo Mein  <span>$15</span></h5>
           <p>Stir-fried noodles tossed with vegetables and protein in a savory sauce.</p>
+          <input id="loMein" name="input" type="submit" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -72,6 +75,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Dumplings <span>$12</span></h5>
           <p>Wrappers filled with meat, seafood, or vegetables, either steamed, boiled, or fried.</p>
+          <input id="dumplings" name="input" type="submit" value="Add To Cart"/>
         </div>
       </div>
 
@@ -86,6 +90,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Mooncakes<span>$7</span></h5>
           <p>Traditional pastries with sweet or savory fillings, especially popular during the</p>
+          <input id="moonCakes" name="input" type="submit" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -93,6 +98,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Sesame Balls<span>$7</span></h5>
           <p> Fried balls filled with red bean paste, coated in sesame seeds.</p>
+          <input id="sesameBalls" name="input" type="submit" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -100,6 +106,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Mango Pudding<span>$5.15</span></h5>
           <p> A creamy, sweet dessert made with mango puree and milk.</p>
+          <input id="mangoPudding" name="input" type="submit" value="Add To Cart"/>
         </div>
       </div>
     </div>
@@ -115,6 +122,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>Orange Juice<span>$2.99</span></h5>
               <p> Refresh your self with a Great Tasting orange juice.</p>
+              <input id="orangeJuice" name="input" type="submit" value="Add To Cart"/>
             </div>
           </div>
           <div class="r5-single-menu">
@@ -122,6 +130,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>LEMONADE<span>$2.99</span></h5>
               <p> SQUEEZED WITH FRESH LEMONS</p>
+              <input id="lemonade" name="input" type="submit" value="Add To Cart"/>
             </div>
           </div>
           <div class="r5-single-menu">
@@ -129,6 +138,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>SPRITE <span>$2.99</span></h5>
               <p> NICE COLD SPRITE</p>
+              <input id="sprite" name="input" type="submit" value="Add To Cart"/>
             </div>
           </div>
         </div>
@@ -141,7 +151,7 @@ export default state => html`<main>
 
         <!-- NEW ADDED JUST NOW -->
 
-    <section id="order">
+    <!-- <section id="order">
     <form
       id="order"
       method="POST"
@@ -207,7 +217,7 @@ export default state => html`<main>
       <label for="mushroom-toppings-checkbox">Tottal Price = $150</label>
       <input type="submit" name="submit" value="Add To Cart" />
     </form>
-  </section>
+  </section> -->
 
 
 
