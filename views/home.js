@@ -8,6 +8,9 @@ import image6 from "url:../assets/White Elegant Minimalist Testimonial For Women
 import image7 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (1).jpg"
 import image8 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (2).jpg"
 import image9 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (3).jpg"
+import image10 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (4).jpg"
+import image11 from "url:../assets/Orange White Modern Tacos Illustrative Mexican Food Logo.jpg"
+import image12 from "url:../assets/Red and Black Illustration Typography Lobster Seafood Restaurant Logo.jpg"
 
 
 
@@ -81,7 +84,7 @@ export default state => html`<main>
       <div class="H-able-3">
         <img src="${image3}" width="100"  height="outo" alt="logo">
       </div>
-      <a href="/resturant2">
+      <a href="/resturant5">
         <h3>Click Here</h3>
 
       </a>
@@ -97,8 +100,8 @@ export default state => html`<main>
       </a>
     </div>
     <div class="h-p-card">
-      <div class="H-able-3">
-        <img src="${image3}" width="100"  height="outo" alt="logo">
+      <div class="H-able-5">
+        <img src="${image11}" width="100"  height="outo" alt="logo">
       </div>
       <a href="/resturant2">
         <h3>Click Here</h3>
@@ -106,8 +109,8 @@ export default state => html`<main>
       </a>
     </div>
     <div class="h-p-card">
-      <div class="H-able-3">
-        <img src="${image3}" width="100"  height="outo" alt="logo">
+      <div class="H-able-6">
+        <img src="${image12}" width="100"  height="outo" alt="logo">
       </div>
       <a href="/resturant2">
         <h3>Click Here</h3>
@@ -165,7 +168,7 @@ export default state => html`<main>
 
 
 <section class="testimonial">
-  <h2>HERE IS WHAT PEOPLE ARE SAYING ABOUT FOODAHEAD</h2>
+  <h1>HERE IS WHAT PEOPLE ARE SAYING ABOUT FOODAHEAD</h1>
   <div class="image-slider">
     <div class="image-item">
       <img src="${image6}" alt="image1">
@@ -180,7 +183,7 @@ export default state => html`<main>
       <img src="${image9}" alt="image1">
     </div>
     <div class="image-item">
-      <img src="" alt="image1">
+      <img src="${image10}" alt="image1">
     </div>
   </div>
 

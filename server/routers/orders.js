@@ -1,6 +1,6 @@
 import { Router } from  'express';
 import Order from '../models/Order.js';
-import MenuItem from '../models/MenuItem.js';
+
 
 const router = Router();
 
@@ -24,12 +24,13 @@ router.post("/", async (request, response) => {
     }
   });
   // Get all Order route
-router.get("/api/orders", async (request, response) => {
+router.get("/", async (request, response) => {
   try {
     // Store the query params into a JavaScript Object
     const query = request.query; // Defaults to an empty object {}
+    console.log(query);
 
-    const data = await Order.find(query);
+    const data = await Order.findById(query);
 
     response.json(data);
   } catch(error) {
