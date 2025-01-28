@@ -51,10 +51,12 @@ export default state => html`<main>
       <div class="r5-single-menu">
         <img src="${image4}" alt="">
         <div class="r5-menu-content">
-          <h5>Fried Rice <span>$14</span></h5>
+          <h5> <div id="" >Fried Rice</div> <span>$14</span></h5>
           <p> Stir-fried rice mixed with vegetables, eggs, and sometimes meat or seafood.</p>
+          <input id="friedRice" class="menuItem" name="input" type="button" value="Add To Cart"/>
 
         </div>
+
 
 
       </div>
@@ -65,6 +67,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Lo Mein  <span>$15</span></h5>
           <p>Stir-fried noodles tossed with vegetables and protein in a savory sauce.</p>
+          <input id="loMein" class="menuItem" name="input" type="button" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -72,6 +75,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Dumplings <span>$12</span></h5>
           <p>Wrappers filled with meat, seafood, or vegetables, either steamed, boiled, or fried.</p>
+          <input id="dumplings" class="menuItem" name="input" type="button" value="Add To Cart"/>
         </div>
       </div>
 
@@ -86,6 +90,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Mooncakes<span>$7</span></h5>
           <p>Traditional pastries with sweet or savory fillings, especially popular during the</p>
+          <input id="moonCakes" class="menuItem" name="input" type="button" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -93,6 +98,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Sesame Balls<span>$7</span></h5>
           <p> Fried balls filled with red bean paste, coated in sesame seeds.</p>
+          <input id="sesameBalls" class="menuItem" name="input" type="button" value="Add To Cart"/>
         </div>
       </div>
       <div class="r5-single-menu">
@@ -100,6 +106,7 @@ export default state => html`<main>
         <div class="r5-menu-content">
           <h5>Mango Pudding<span>$5.15</span></h5>
           <p> A creamy, sweet dessert made with mango puree and milk.</p>
+          <input id="mangoPudding" class="menuItem" name="input" type="button" value="Add To Cart"/>
         </div>
       </div>
     </div>
@@ -115,6 +122,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>Orange Juice<span>$2.99</span></h5>
               <p> Refresh your self with a Great Tasting orange juice.</p>
+              <input id="orangeJuice" class="menuItem" name="input" type="button" value="Add To Cart"/>
             </div>
           </div>
           <div class="r5-single-menu">
@@ -122,6 +130,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>LEMONADE<span>$2.99</span></h5>
               <p> SQUEEZED WITH FRESH LEMONS</p>
+              <input id="lemonade" class="menuItem" name="input" type="button" value="Add To Cart"/>
             </div>
           </div>
           <div class="r5-single-menu">
@@ -129,6 +138,7 @@ export default state => html`<main>
             <div class="r5-menu-content">
               <h5>SPRITE <span>$2.99</span></h5>
               <p> NICE COLD SPRITE</p>
+              <input id="sprite" class="menuItem" name="input" type="button" value="Add To Cart"/>
             </div>
           </div>
         </div>
@@ -137,84 +147,19 @@ export default state => html`<main>
 
 
 
-
-
-        <!-- NEW ADDED JUST NOW -->
-
-    <section id="order">
-    <form
-      id="order"
-      method="POST"
-      action="https://sc-pizza-api.onrender.com/pizzas/form"
-    >
-      <h2>Order NOW</h2>
-      <div>
-        <label for="customer">Customer</label>
-        <input
-          type="text"
-          name="customer"
-          id="customer"
-          placeholder="Enter Customer Name"
-        />
-      </div>
-
-
-      <div id="toppings-wrapper">
-        <b>Toppings:</b>
-        <input
-          type="checkbox"
-          id="chicken-toppings-checkbox"
-          name="toppings"
-          value="Fried Rice"
-        />
-        <label for="chicken-toppings-checkbox">Lo Mein</label>
-        <input
-          type="checkbox"
-          id="pepperoni-toppings-checkbox"
-          name="toppings"
-          value="Lo Mein"
-        />
-        <label for="pepperoni-toppings-checkbox">Dumplings</label>
-        <input
-          type="checkbox"
-          id="ham-toppings-checkbox"
-          name="toppings"
-          value="Dumplings"
-        />
-        <label for="ham-toppings-checkbox">MoonCakes</label>
-        <input
-          type="checkbox"
-          id="onion-toppings-checkbox"
-          name="toppings"
-          value="MoonCakes"
-        />
-        <label for="onion-toppings-checkbox">Sesame Balls</label>
-        <input
-          type="checkbox"
-          id="mushroom-toppings-checkbox"
-          name="toppings"
-          value="Sesame Balls"
-        />
-        <label for="mushroom-toppings-checkbox">Mango Pudding</label>
-        <input
-          type="checkbox"
-          id="cheese-toppings-checkbox"
-          name="toppings"
-          value="Mango Pudding"
-        />
-        <label for="cheese-toppings-checkbox">SPRITE</label>
-      </div>
-      <label for="mushroom-toppings-checkbox">Tottal Price = $150</label>
-      <input type="submit" name="submit" value="Add To Cart" />
-    </form>
-  </section>
-
-
-
-
   </div>
+  <form id="order">
+
+    <input id="submitButton" type="submit" name="submit" value="Submit order" />
+
+
+  </form>
+
+
 
 </section>
+
+
 
 
 

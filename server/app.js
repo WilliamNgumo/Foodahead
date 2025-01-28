@@ -2,7 +2,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Orders from './routers/orders';
+import ordersRouter from './routers/orders.js';
+import menuItem from './routers/menuItems.js';
+import resturant5 from './routers/resturant5.js';
+
 
 // Load environment variables from .env file
 dotenv.config();
@@ -54,7 +57,9 @@ app.get("/status", (request, response) => {
   response.send(JSON.stringify({ message: "Service healthy" }));
 });
 
-app.use("./orders", Orders);
+app.use("/orders", ordersRouter);
+app.use("/resturant5", resturant5);
+app.use("/menuItems", menuItem);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040

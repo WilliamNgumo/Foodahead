@@ -1,4 +1,7 @@
 export default {
   header: "",
-  view: "orders"
+  view: "orders",
+  completedOrder: []
+
+
 };
