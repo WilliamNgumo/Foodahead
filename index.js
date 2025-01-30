@@ -52,7 +52,8 @@ router.hooks({
     // We need to know what view we are on to know what data to fetch
     const view = match?.data?.view ? camelCase(match.data.view) : "home";
 
-    if (view === "resturant5") {
+    switch (view) {
+      case "resturant5":
 
       // New Axios get request utilizing already made environment variable
       axios
@@ -69,6 +70,9 @@ router.hooks({
           console.log("It puked", error);
           done();
         });
+        break;
+      default:
+        done();
 
     }
   },
