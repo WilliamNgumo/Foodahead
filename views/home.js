@@ -18,9 +18,6 @@ import image13 from "url:../assets/Screenshot 2025-01-29 at 11.26.01 AM.png"
 
 export default state => html`<main>
 
-<!-- <h3>
-    The weather in ${state.weather.city} is ${state.weather.description}. Temperature is ${state.weather.temp}F, and it feels like ${state.weather.feelsLike}F.
-  </h3> -->
 <div class="h-hero">
 
 
