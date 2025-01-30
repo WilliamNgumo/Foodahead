@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import ordersRouter from './routers/orders.js';
 import menuItem from './routers/menuItems.js';
 import resturant5 from './routers/resturant5.js';
+import contact from './routers/contact.js';
 
 
 // Load environment variables from .env file
@@ -60,6 +61,8 @@ app.get("/status", (request, response) => {
 app.use("/orders", ordersRouter);
 app.use("/resturant5", resturant5);
 app.use("/menuItems", menuItem);
+app.use("/contact", contact);
+
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
