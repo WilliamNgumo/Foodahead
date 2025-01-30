@@ -3,7 +3,7 @@ import * as store from "./store";
 import Navigo from "navigo";
 import { camelCase } from "lodash";
 import axios from "axios"
-import MenuItem from "./server/models/MenuItem";
+
 
 
 
