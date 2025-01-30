@@ -11,7 +11,7 @@ import image9 from "url:../assets/White Elegant Minimalist Testimonial For Women
 import image10 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (4).jpg"
 import image11 from "url:../assets/Orange White Modern Tacos Illustrative Mexican Food Logo.jpg"
 import image12 from "url:../assets/Red and Black Illustration Typography Lobster Seafood Restaurant Logo.jpg"
-import image13 from "url:../assets/Screenshot 2025-01-29 at 11.26.01 AM.png"
+// import image13 from "url:../assets/Screenshot 2025-01-29 at 11.26.01 AM.png"
 
 
 
@@ -137,7 +137,7 @@ export default state => html`<main>
 <div class="add-banner-home">
   <img src="${image3}" width="100"  height="" alt="logo">
 
-  <img src="${image13}" width="500"  height="200" alt="logo">
+  <!-- <img src="${image13}" width="500"  height="200" alt="logo"> -->
   <div class="home-banner">
 
 
