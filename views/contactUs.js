@@ -19,7 +19,7 @@ export default () => html`<main>
   <input type="email" name="email" placeholder="Enter Your Email" required>
   <label for="message">message</label>
   <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
-  <button type="submit">Submit</button>
+  <input type="submit" name="submit" value="Submit"/>
 
   <h3>Thanks fo contacting Us!!!</h3>
 

@@ -3,6 +3,7 @@ import * as store from "./store";
 import Navigo from "navigo";
 import { camelCase } from "lodash";
 import axios from "axios"
+import MenuItem from "./server/models/MenuItem";
 
 
 
@@ -254,6 +255,12 @@ router.hooks({
       .then(response => {
       console.log("responseData",response.data);
       store.orders.completedOrder = response.data.menuItems;
+      response.data.menuItems.forEach(menuItem => {
+        store.orders.total += menuItem.price,
+        store.orders.totalMinutes += menuItem.minutes
+      });
+      console.log("this is the total", store.orders.total);
+      console.log("this is the totalMinutes", store.orders.totalMinutes);
       console.log("store completedOrder", store.orders.completedOrder);
       router.navigate("/orders");
       })
@@ -272,8 +279,32 @@ router.hooks({
       //   console.log(response)
       // })
     }
+    if (view === "contactUs") {
+      document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+        const inputList = event.target.elements;
+        console.log("input Element list",inputList);
 
-
+        // Create a request body object to send to the API
+        const requestData = {
+          name: inputList.name.value,
+          email: inputList.email.value,
+          message: inputList.message.value
+        };
+        axios
+          .post(`${process.env.FOODAHEAD_API_URL}/contact`, requestData)
+          .then(response => {
+            console.log(response)
+            if (response.status === 202) {
+              alert("Message sent successfully");
+              // router.navigate("/contactUs");
+            }
+            else {
+              alert("Message failed to send");
+            }
+          })
+      })
+    }
     // if (view === "orders") {
     //   // Logic to fetch and display the cart
     //   axios

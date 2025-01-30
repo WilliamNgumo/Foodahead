@@ -9,7 +9,7 @@ export default () => html`<main>
 <div class="Statement">
 <div class="sonk">
 
-    <img src="${logo}" alt="picture of me" width="100" height="auto">
+    <img src="${logo}" alt="logo" width="100" height="auto">
     <p>“Find Your Perfect Meal, OrderAhead, Enjoy”</p>
 
 </div>

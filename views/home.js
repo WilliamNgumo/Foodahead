@@ -11,6 +11,7 @@ import image9 from "url:../assets/White Elegant Minimalist Testimonial For Women
 import image10 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (4).jpg"
 import image11 from "url:../assets/Orange White Modern Tacos Illustrative Mexican Food Logo.jpg"
 import image12 from "url:../assets/Red and Black Illustration Typography Lobster Seafood Restaurant Logo.jpg"
+import image13 from "url:../assets/Screenshot 2025-01-29 at 11.26.01 AM.png"
 
 
 
@@ -94,7 +95,7 @@ export default state => html`<main>
         <img src="${image5}" width="100"  height="outo" alt="logo">
 
       </div>
-      <a href="/resturant2">
+      <a href="/resturant4">
         <h3>Click Here</h3>
 
       </a>
@@ -103,7 +104,7 @@ export default state => html`<main>
       <div class="H-able-5">
         <img src="${image11}" width="100"  height="outo" alt="logo">
       </div>
-      <a href="/resturant2">
+      <a href="/resturant5">
         <h3>Click Here</h3>
 
       </a>
@@ -112,7 +113,7 @@ export default state => html`<main>
       <div class="H-able-6">
         <img src="${image12}" width="100"  height="outo" alt="logo">
       </div>
-      <a href="/resturant2">
+      <a href="/resturant3">
         <h3>Click Here</h3>
 
       </a>
@@ -124,11 +125,12 @@ export default state => html`<main>
 
 
 <section class="HomeAdd-Section">
-  <h1>ALL NEW <br>BURGER JOINT---></h1>
+  <h1>ALL NEW <br>Chinese Cuisine---></h1>
   <div class="home-iframe-stuff">
     <iframe
 
-      src="https://www.youtube.com/embed/tomtZEiwRUQ?autoplay=1&mute=1&loop=1&playlist=tomtZEiwRUQ&controls=0&modestbranding=1&rel=0"
+      src="https://www.youtube.com/embed/Qc_NsaUzBDA?autoplay=1&mute=1&loop=1&playlist=Qc_NsaUzBDA&controls=0&modestbranding=1&rel=0
+"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -136,13 +138,14 @@ export default state => html`<main>
     ></iframe>
 </div>
 <div class="add-banner-home">
-  <img src="${image2}" width="100"  height="" alt="logo">
+  <img src="${image3}" width="100"  height="" alt="logo">
 
-
+  <img src="${image13}" width="500"  height="200" alt="logo">
   <div class="home-banner">
 
-    <a class="button-homer2 " href="/resturant2"><--CHECK US OUT</a>
-    <p>"Best Burgers in Town Order Ahead Now"</p>
+
+    <a class="button-homer2 " href="/resturant5"><--CHECK US OUT</a>
+    <p>"A haven for lovers of authentic and diverse Chinese Food"</p>
 
 
   </div>
