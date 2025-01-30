@@ -137,7 +137,7 @@ export default state => html`<main>
 <div class="add-banner-home">
   <img src="${image3}" width="100"  height="" alt="logo">
 
-  <!-- <img src="${image13}" width="500"  height="200" alt="logo"> -->
+
   <div class="home-banner">
 
 
