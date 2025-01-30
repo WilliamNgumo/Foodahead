@@ -42,47 +42,6 @@ const addItemToCart = (itemName, price, minutes) => {
   });
 };
 
-// const updateCartDisplay = () => {
-//   const cartItemsContainer = document.getElementById("cartItems");
-//   const cartTotalContainer = document.getElementById("cartTotal");
-
-//   if (!cartItemsContainer || !cartTotalContainer) return; // Ensure cart elements exist
-
-//   cartItemsContainer.innerHTML = ""; // Clear current cart items
-//   let total = 0;
-
-//   cart.forEach(item => {
-//     const listItem = document.createElement("li");
-//     listItem.textContent = `${item.name} - $${item.price} x ${item.quantity}`;
-//     cartItemsContainer.appendChild(listItem);
-//     total += item.price * item.quantity;
-//   });
-
-//   cartTotalContainer.textContent = `Total: $${total.toFixed(2)}`;
-// };
-
-
-// const addToCartAPI = (itemName, price) => {
-//   const requestData = {
-//     itemName: itemName,
-//     price: price,
-//     quantity: 1, // Initially set the quantity to 1
-//   };
-
-//   // API call to store the item in the database or send to the server
-//   axios
-//     .post(`${process.env.FOODAHEAD_API_URL}/orders`, requestData)
-//     .then((response) => {
-//       // If the API request is successful, you can handle the response here
-//       console.log("Item added to cart:", response.data);
-//       alert(`${itemName} added to cart`);
-//       // Optionally, you can update the UI or cart state here as well
-//       updateCartDisplay(); // Update the cart display with the latest data
-//     })
-//     .catch((error) => {
-//       console.log("Error adding item to cart:", error);
-//     });
-// };
 
 
 router.hooks({
@@ -92,51 +51,7 @@ router.hooks({
   before: (done, match) => {
     // We need to know what view we are on to know what data to fetch
     const view = match?.data?.view ? camelCase(match.data.view) : "home";
-    // Add a switch case statement to handle multiple routes
-    switch (view) {
-      // New Case for the Home View
-      case "home":
-        axios
-          .get(`https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&units=imperial&q=st%20louis`)
-          .then(response => {
-            store.home.weather = {
-              city: response.data.name,
-              temp: response.data.main.temp,
-              feelsLike: response.data.main.feels_like,
-              description: response.data.weather[0].main
-            };
-            done();
-          })
-          .catch((err) => {
-            console.log(err);
-            done();
-          });
-        break;
 
-      // Add a case for each view that needs data from an API
-      // case "orders":
-      //   axios
-      //     .get(`${process.env.FOODAHEAD_API_URL}/orders`)
-      //     .then(response => {
-      //       // We need to store the response to the state, in the next step but in the meantime let's see what it looks like so that we know what to store from the response.
-      //       // console.log("response", store.tracker.trackers);
-      //       store.orders.orders = response.data;
-      //       console.log("response", store.orders.orders);
-      //       done();
-      //     })
-      //     .catch((error) => {
-      //       console.log("It puked", error);
-      //       done();
-      //     });
-
-
-      //     break;
-      default :
-
-        // We must call done for all views so we include default for the views that don't have cases above.
-        done();
-        // break is not needed since it is the last condition, if you move default higher in the stack then you should add the break statement.
-    }
     if (view === "resturant5") {
 
       // New Axios get request utilizing already made environment variable
@@ -154,23 +69,7 @@ router.hooks({
         console.log("It puked", error);
         done();
       });
-      // let cartItems = [];
-      // // ! this will handle the add to cart events from the view
-      // // const addButtons = querySelectorAll("addToCart");
-      // // addButtons.forEach(button => {
-      // //   button.addEventListener("click", event => {
-      // //     // get menu item values from the store or from hard coded values from html
-      // //     cart.push({ name: itemName, price: price, minutes: minutes });
-      // //   })
-      // // })
-      // cartItems = [{ itemName: "lemonade", price: 2.99, minutes: 2 }, { itemName: "friedRice", price: 14, minutes: 12}]
-      // const requestData = {
-      //   menuItems: cartItems
-      // }
-      // axios.post(`${process.env.FOODAHEAD_API_URL}/resturant5`, requestData)
-      // .then(response => {
-      //   console.log(response)
-      // })
+
     }
   },
   already: (match) => {
