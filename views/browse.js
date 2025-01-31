@@ -20,7 +20,7 @@ import image14 from "url:../assets/Red and Black Illustration Typography Lobster
 export default () => html`<main>
 
 <div class="restaurant-browse">
-  <h1>Browsw Our Restaurants</h1>
+  <!-- <h1>Browsw Our Restaurants</h1> -->
 
   <section class="resturant-cards">
   <div class="restaurant-card">
@@ -40,7 +40,10 @@ export default () => html`<main>
       <div class="restaurant-info">
         <h3>Williams Burger </h3>
         <p>dedicatedmouthwatering burgers and fresh fries.</p>
-        <a href="/restaurant2" class="browse-btn">Explore</a>
+        <a href="/resturant2">
+        <h3>Click here</h3>
+
+      </a>
       </div>
     </div>
 
@@ -49,7 +52,9 @@ export default () => html`<main>
       <div class="restaurant-info">
         <h3>Wills INDI Cuisine</h3>
         <p>Known for its authentic recipes and warm hospitality</p>
-        <a href="/restaurant3" class="browse-btn">Explore</a>
+        <a href="/resturant4">
+        <h3>Click Here</h3>
+      </a>
       </div>
     </div>
 
@@ -58,7 +63,9 @@ export default () => html`<main>
       <div class="restaurant-info">
         <h3>Williams Italian</h3>
         <p>A true celebration of Italy's rich culinary traditions. </p>
-        <a href="/restaurant1" class="browse-btn">Explore</a>
+        <a href="/resturant1">
+          <h3>Click Here</h3>
+        </a>
       </div>
     </div>
 
@@ -67,7 +74,9 @@ export default () => html`<main>
       <div class="restaurant-info">
         <h3>Williams Tacoz</h3>
         <p>Type of Cuisine</p>
-        <a href="/restaurant6" class="browse-btn">Explore</a>
+        <a href="/resturant6">
+        <h3>Click Here</h3>
+      </a>
       </div>
     </div>
 
@@ -76,7 +85,9 @@ export default () => html`<main>
       <div class="restaurant-info">
         <h3>Wills Sea Food</h3>
         <p>Williams Seafood Cuisine is a culinary haven specializing in fresh, flavorful seafood</p>
-        <a href="/restaurant4" class="browse-btn">Explore</a>
+        <a href="/resturant3">
+        <h3>Click Here</h3>
+      </a>
       </div>
     </div>
 

@@ -5,12 +5,13 @@ import image2 from "url:../assets/pexels-rachel-claire-5531160.jpg";
 import image3 from "url:../assets/pexels-the-castlebar-3902897-19120336.jpg";
 import image4 from "url:../assets/pexels-abhinavcoca-291528.jpg";
 import image5 from "url:../assets/pexels-polina-tankilevitch-5848496.jpg";
-import image6 from "url:../assets/pexels-infonautica-3533865.jpg";
+import image6 from "url:../assets/pexels-layyana-sheridean-1477746-2846337.jpg"
 import image7 from "url:../assets/pexels-asphotograpy-96620.jpg";
 import image8 from "url:../assets/pexels-designbyja-1113500-2109099.jpg";
 import image9 from "url:../assets/pexels-timur-weber-8679554.jpg";
-import image10 from "url:../assets/Brown Beige Circle Chinese Food Logo.jpg"
-import image11 from "url:../assets/pexels-anntarazevich-6937457.jpg";
+import image10 from "url:../assets/pexels-nishantaneja-2955820.jpg"
+import image11 from "url:../assets/Orange White Modern Tacos Illustrative Mexican Food Logo.jpg"
+
 
 
 
@@ -18,7 +19,7 @@ export default state => html`<main>
 
   <div class="r6-resturant-hero">
     <div class="r6-Hero-text">
-    <img src="${image10}" width="300"  height="outo"  alt="italina logo">
+    <img src="${image11}" width="300"  height="outo"  alt="italina logo">
       <h3>↓ View Menu Below ↓</h3>
     </div>
   </div>
@@ -101,19 +102,19 @@ export default state => html`<main>
     <div class="r6-menu-column">
       <h4>Desserts</h4>
       <div class="r6-single-menu">
-        <img src="assets/pexels-tonyleong81-2092906.jpg" alt="">
-        <div class="r6-menu-content">
-          <h5>Shrimp Linguine<span>$60</span></h5>
-          <p> covered in a lemon butter sauce that will have you licking your plate clean!</p>
-        </div>
+              <img src="${image10}" alt="">
+              <div class="r6-menu-content">
+                <h5>Chocolate Glazed Donuts <span>$5.99</span></h5>
+                <p> yeast donuts with chocolate frosting are so chocolatey and delicious!</p>
+              </div>
       </div>
       <div class="r6-single-menu">
-        <img src="assets/pexels-enginakyurt-2260561.jpg" alt="">
-        <div class="r6-menu-content">
-          <h5>Garden Fresh Pizza <span>$22.99</span></h5>
-          <p> All your favorite veggies together on a delightfully delicious pizza.</p>
-        </div>
-      </div>
+              <img src="${image6}" alt="">
+              <div class="r6-menu-content">
+                <h5>Chocolate Fudge Brownie ice cream<span>$12.99</span></h5>
+                <p> chocolate non-dairy frozen dessert with fabulously fudgy chocolate brownies</p>
+              </div>
+            </div>
       <div class="r6-single-menu">
         <img src="${image4}" alt="">
         <div class="r6-menu-content">

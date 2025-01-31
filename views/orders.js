@@ -1,24 +1,37 @@
 import html from "html-literal";
 import * as store from "../store";
 
-// let minuteCountDown = store.orders.totalMinutes;
-// let secondCountDown = minuteCountDown * 60;
-// let timer = document.getElementById('timer');
-// console.log(timer);
-// setInterval(()=> {
-//   secondCountDown--;
-//   let minutes = Math.floor(secondCountDown / 60)
-//   let seconds = secondCountDown % 60;
-//   console.log(typeof minutes);
-//   if (minutes < 10) {
-//     minutes = '0' + minutes;
-//   }
-//   if (seconds < 10) {
-//     seconds = '0' + seconds;
-//   }
-//   timer.textContent = minutes + ':' + seconds;
+function countdown() {
+  let timeLimitInMinutes = 10;
+  let timeLimitInSeconds = timeLimitInMinutes * 60;
+  console.log("checking for timeLimiotsInMinutes", timeLimitInMinutes);
 
-// }, 1000)
+  function startTimer() {
+    console.log("checking");
+
+    timeLimitInSeconds--;
+    let minutes = Math.floor(timeLimitInSeconds / 60);
+    let seconds = timeLimitInSeconds % 60;
+
+    if (timeLimitInSeconds < 0) {
+      clearInterval(timerInterval);
+      return '00:00';
+    }
+
+    if (minutes < 10) {
+      minutes = '0' + minutes;
+    }
+    if (seconds < 10) {
+      seconds = '0' + seconds;
+    }
+    let timerString = minutes + " &#58; " + seconds;
+    console.log(timerString);
+    return (timerString.toString());
+  }
+  let timerInterval = setInterval(startTimer, 1000);
+
+}
+
 
 
 
@@ -42,7 +55,8 @@ export default state => html`<main>
     <tr>
 
       <td> ${state.total} </td>
-      <td><span id="timer"></span></td>
+      <td> ${state.totalMinutes} </td>
+      <td><span id="timer">${countdown()}</span></td>
 
     </tr>
 
