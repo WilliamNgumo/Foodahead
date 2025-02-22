@@ -31,18 +31,12 @@ export default state => html`<main class="doctor">
   <h1>About Us</h1>
   <p>William's Italian Restaurant is a true celebration of Italy's rich culinary traditions.
     Nestled in a charming, inviting setting, the restaurant transports diners <br>straight to the
-    heart of Italy with its warm ambiance, authentic flavors, and impeccable hospitality. The
-    menu is a delightful journey through Italy’s diverse regions, featuring handcrafted pasta,
-    wood-fired pizzas, fresh seafood, and decadent desserts, all made with <br>the finest ingredients.
-    Whether you're savoring a classic Margherita pizza or indulging in a creamy tiramisu, every
-    dish is prepared with passion and precision. Perfect for romantic evenings, family gatherings,
-    or casual lunches, William's Italian Restaurant offers an unforgettable dining experience that
-    captures the magic of Italian cuisine. Buon appetito!
+    heart of Italy with its warm ambiance, authentic flavors, and impeccable hospitality.
   </p>
 
 </div>
 
-<div class="iframe-stuff">
+<!-- <div class="iframe-stuff">
     <iframe
 
       src="https://www.youtube.com/embed/8CYCS8T_g14?autoplay=1&mute=1&loop=1&playlist=8CYCS8T_g14&controls=0&modestbranding=1&rel=0"
@@ -50,7 +44,7 @@ export default state => html`<main class="doctor">
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    ></iframe>
+    ></iframe> -->
 
 
 

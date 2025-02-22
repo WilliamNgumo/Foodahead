@@ -152,6 +152,19 @@
  position:relative;
  text-align: center;
  }
+
+ /* footer {
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: relative;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+} */
+
+
  .footer-div {
   position:sticky;
 
@@ -224,7 +237,7 @@ form {
 }
 
 
-@media screen and (max-width: 570px) {
+/* @media screen and (max-width: 570px) {
   body{font-size: 16px;
   width: 100vw;}
   div{ width: 95%;}
@@ -247,7 +260,7 @@ form {
     display: none;
 
   }
-}
+} */
 
 .pictureOfMe {
   width: 200;
@@ -300,6 +313,7 @@ form {
   color: white;
   text-align: center;
   padding-bottom: 20px;
+
 
 }
 .r1-vid {
@@ -418,7 +432,7 @@ form {
   font-size: 14px;
 }
 
-@media only-screen and (min-width:992px) and (max-width:1200px) {
+/* @media only-screen and (min-width:992px) and (max-width:1200px) {
   .r1-main {
     width: 970px;
   }
@@ -472,7 +486,7 @@ form {
     .r1-single-menu .r1-menu-content p {
       font-size: 14px;
     }
-  }
+  } */
 
   /* ++++++++++++++++++++++++++++++++++++ (RESURANT 2 CSS) ++++++++++++++++++++++++++ */
 .r2-main-Back {
@@ -481,6 +495,7 @@ form {
 .r2-resturant-hero {
   position: relative;
   height: 80vh;
+  background: url('assets/pexels-jonathanborba-2983101.jpg') no-repeat center center/cover;
   color: beige;
   display: flex;
   align-items: center;
@@ -628,7 +643,7 @@ form {
 .r2-single-menu .r2-menu-content p {
   font-size: 14px;
 }
-
+/*
 @media only-screen and (min-width:992px) and (max-width:1200px) {
   .r2-main {
     width: 970px;
@@ -678,7 +693,7 @@ form {
     .r2-single-menu .r2-menu-content p {
       font-size: 14px;
     }
-  }
+  } */
   /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 3) ++++++++++++++++++++++++++= */
 
   .r3-resturant-hero {
@@ -849,7 +864,7 @@ form {
   .r3-single-menu .r3-menu-content p {
     font-size: 14px;
   }
-
+/*
   @media only-screen and (min-width:992px) and (max-width:1200px) {
     .r3-main {
       width: 970px;
@@ -905,7 +920,7 @@ form {
       .r3-single-menu .r3-menu-content p {
         font-size: 14px;
       }
-    }
+    } */
 
     /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 4) ++++++++++++++++++++++++++= */
 
@@ -1075,7 +1090,7 @@ form {
   .r4-single-menu .r4-menu-content p {
     font-size: 14px;
   }
-
+/*
   @media only-screen and (min-width:992px) and (max-width:1200px) {
     .r4-main {
       width: 970px;
@@ -1131,7 +1146,7 @@ form {
       .r4-single-menu .r4-menu-content p {
         font-size: 14px;
       }
-    }
+    } */
 
  /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 5) ++++++++++++++++++++++++++= */
 
@@ -1310,7 +1325,7 @@ background-color: #000000;
   font-size: 14px;
 }
 
-  @media only-screen and (min-width:992px) and (max-width:1200px) {
+  /* @media only-screen and (min-width:992px) and (max-width:1200px) {
     .r5-main {
       width: 970px;
     }
@@ -1415,7 +1430,7 @@ background-color: #000000;
 
 }
 .r6-AboutyUs {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding-bottom: 20px;
   background: linear-gradient(135deg, #006847, #FFFFFF, #D71A24);
@@ -1544,7 +1559,7 @@ background-color: #000000;
 .r6-single-menu .r6-menu-content p {
   font-size: 14px;
 }
-
+/*
 @media only-screen and (min-width:992px) and (max-width:1200px) {
   .r6-main {
     width: 970px;
@@ -1602,7 +1617,7 @@ background-color: #000000;
     .r6-single-menu .r6-menu-content p {
       font-size: 14px;
     }
-  }
+  } */
 /* ++++++++++++++++++++++++++++++++++++++(HOMEPAGE CSS)++++++++++++++++++++++++++++ */
 
   .h-slider {
@@ -1933,7 +1948,7 @@ button.next {
 }
 
 .restaurant-card {
-  background-color: #ffffff;
+  background-color: #332b2b;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -1963,13 +1978,13 @@ button.next {
 
 .restaurant-info h3 {
   font-size: 1.8em;
-  color: #007BFF;
+  color: #0051ff;
   margin-bottom: 10px;
 }
 
 .restaurant-info p {
   font-size: 1em;
-  color: #666;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -2020,6 +2035,7 @@ button.next {
  padding: 20px;
  text-align: center;
  background-color: #000000;
+ clear: both;
 }
 
 .popularCuisines> h2 {
@@ -2092,14 +2108,6 @@ button.next {
   color: #555;
 }
 
-@media (max-width:768px) {
-
-}
-
-@media (max-width:480px) {
-
-}
-
 .h-search {
   background-color: ;
   padding: 20px;
@@ -2161,7 +2169,7 @@ button.next {
 }
 .h-p-card {
   background: transparent;
-  padding: 1px;
+  padding: 15px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -2219,15 +2227,30 @@ button.next {
 }
 .h-p-card> a {
   color: #ffffff;
-  display: inline-block;
+  display: block;
   padding: 5px 10px;
-  background-color: #b78d42;
+  background-color: #c52f2f;
   text-decoration: none;
   border-radius: 5px;
   font-size: 10px;
   text-align: center;
   transition: background-color 0.3s,;
   cursor: pointer;
+  margin-top: 10px;
+
+}
+.h333 a{
+  color: #ffffff;
+  display: block;
+  padding: 5px 10px;
+  background-color:#b78d42;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+  transition: background-color 0.3s,;
+  cursor: pointer;
+  margin-top: 10px;
 
 }
 .h-p-card> a:hover {
@@ -2378,7 +2401,7 @@ footer {
   padding: 2rem 2rem 4rem;
   margin: 1rem 1rem;
 }
-
+/*
 @media (max-width: 549px){
   .hidden--mobile {
     display: none !important;
@@ -2429,7 +2452,7 @@ footer {
     display: none;
   }
 
-}
+} */
 
 /* ++++++++++++++++++++++++(OREDRS PAGE CSS)+++++++++++== */
 
@@ -2465,7 +2488,7 @@ td span#timer {
   color: #d9534f;
   font-size: 16px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .h-hero {
     flex-direction: column;
     align-items: center;
@@ -2501,10 +2524,244 @@ td span#timer {
   }
 
 
+} */
+
+
+
+@media (max-width: 768px) {
+  /* GENERAL STYLES */
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+
+  /* HERO SECTION */
+  .h-hero {
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h-hero img {
+    width: 100px;
+    height: auto;
+  }
+
+  .h-content {
+    max-width: 90%;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .h-content h1 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .h-content p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 12px 20px;
+    display: inline-block;
+  }
+
+  /* SEARCH BAR */
+  .h-search {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .h-search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .h-search-bar input {
+    width: 90%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* POPULAR CUISINES */
+  .popularCuisines {
+    height: auto;
+    padding: 10px;
+    background-attachment: scroll;
+  }
+
+  .h-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .h-p-card {
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .h-p-card > a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .H-able-1, .H-able-2, .H-able-3,
+  .H-able-4, .H-able-5, .H-able-6 {
+    height: 30vh;
+    width: 100%;
+  }
+  .h-p-card br {
+    display: none;
+  }
+
+
+  /* HOME ADD SECTION */
+  .HomeAdd-Section {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+  }
+  .HomeAdd-Section span {
+    display: none;
+  }
+  .home-iframe-stuff {
+    max-width: 100%;
+  }
+
+  .home-iframe-stuff iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .add-banner-home {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .add-banner-home img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-banner {
+    text-align: center;
+  }
+
+  .button-homer2 {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+  /* TESTIMONIAL SECTION */
+  .testimonial {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .image-item {
+    flex: 0 0 90%;
+    width: 80px;
+    scroll-snap-align: start;
+  }
+  .testimonial h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+
+
+  /* DOTTED LINE OFFER */
+  .dotted-line {
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+  }
+
+  /* ===========================================resurants views================= */
+  .r6-main, .r5-main, .r4-main, .r3-main, .r2-main, .r1-main   {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .r6-menus, .r5-menus, .r4-menus, .r3-menus, .r2-menus, .r1-menus  {
+    flex-direction: column;
+  }
+  .r6-menu-column, .r5-menu-column, .r4-menu-column, .r3-menu-column, .r2-menu-column, .r1-menu-column {
+    width: 90%;
+  }
+  .r6-single-menu, .r5-single-menu, .r4-single-menu, .r3-single-menu, .r2-single-menu, .r1-single-menu{
+    flex-direction: column;
+    text-align: center;
+  }
+  .r6-single-menu img, .r5-single-menu img, .r4-single-menu img, .r3-single-menu img, .r2-single-menu img, .r1-single-menu img {
+    margin: 0 auto 15px;
+    max-width: 80px;
+  }
+  .r6-single-menu .r6-menu-content h5, .r5-single-menu .r5-menu-content  h5, .r4-single-menu .r4-menu-content h5, .r3-single-menu .r3-menu-content h5, .r2-single-menu .r2-menu-content h5, .r1-single-menu .r1-menu-content h5 {
+    font-size: 18px;
+  }
+  .r6-single-menu .r6-menu-content p, .r5-single-menu .r5-menu-content p, .r4-single-menu .r4-menu-content p,  .r3-single-menu .r3-menu-content p, .r2-single-menu .r2-menu-content p, .r1-menu-content p    {
+    font-size: 14px;
+  }
+  .r5-Hero-text> h1, .r6-Hero-text> h1, .r4-Hero-text> h1, .r3-Hero-text> h1, .r2-Hero-text> h1, .r1-Hero-text> h1 {
+    font-size: 2rem;
+  }
+  .r5-Hero-text> p, .r6-Hero-text> p, .r4-Hero-text> p, .r3-Hero-text> p, .r2-Hero-text> p, .r1-Hero-text> p {
+    font-size: 1.2rem;
+  }
 }
 
+@media screen and (max-width: 570px) {
+  body{font-size: 16px;
+  width: 100vw;}
+  /* div{ width: 95%;} */
+  .footer {width: 100%;
+  padding: 0px;}
+  .nav-sec{width: 100%;
+  padding: 0px;
+  flex-direction:column;
+}
+  .nav-sec-list .nav-sec-list2 {
+    flex-direction: column;
+  }
+  .hidden--mobile {
+    display: none;
+  }
+}
 
+@media (min-width: 571px){
+  nav > .fa-bars {
+    display: none;
 
+  }
+}
 
 
 
