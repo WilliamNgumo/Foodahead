@@ -73,7 +73,7 @@ export default () => html`<main>
       <img src="${image13}" alt="Restaurant 4">
       <div class="restaurant-info">
         <h3>Williams Tacoz</h3>
-        <p>Type of Cuisine</p>
+        <p>Williams Mexican resturant is a haven for lovers of authentic and diverse Mexican cuisine.</p>
         <a href="/resturant6">
         <h3>Click Here</h3>
       </a>

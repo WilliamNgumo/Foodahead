@@ -26,8 +26,8 @@ export default state => html`<main>
 
   <div  class="r6-AboutyUs">
     <h1>About Us</h1>
-    <p>Williams Chinese resturant is a haven for lovers of authentic and diverse
-       Chinese cuisine. <br> Offering a menu that captures the essence of regional specialties
+    <p>Williams Mexican resturant is a haven for lovers of authentic and diverse
+       Mexican cuisine. <br> Offering a menu that captures the essence of regional specialties
     </p>
 
   </div>

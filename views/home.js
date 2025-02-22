@@ -11,6 +11,16 @@ import image9 from "url:../assets/White Elegant Minimalist Testimonial For Women
 import image10 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (4).jpg"
 import image11 from "url:../assets/Orange White Modern Tacos Illustrative Mexican Food Logo.jpg"
 import image12 from "url:../assets/Red and Black Illustration Typography Lobster Seafood Restaurant Logo.jpg"
+import image13 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (5).jpg"
+import image14 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (6).jpg"
+import image15 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (7).jpg"
+import image16 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (8).jpg"
+import image17 from "url:../assets/White Elegant Minimalist Testimonial For Women's Business Instagram Post  (9).jpg";
+import image18 from "url:../assets/Screenshot 2025-01-29 at 11.26.01-AM.png"
+
+
+
+
 // import image13 from "url:../assets/Screenshot 2025-01-29 at 11.26.01 AM.png"
 
 
@@ -45,7 +55,7 @@ export default state => html`<main>
 
 <section class="h-search">
   <div class="h-search-bar">
-    <input type="text" placeholder="Search for restaurants or cuisines">
+    <input type="text" placeholder="Search">
 
   </div>
 </section>
@@ -59,59 +69,83 @@ export default state => html`<main>
   </aside>
   <div class="h-card">
     <div class="h-p-card">
+      <h2>NOW OPEN !!</h2>
+      <div class="H-able-3">
+        <img src="${image3}" width="100"  height="outo" alt="logo">
+      </div>
+      <div class="h333">
+        <a href="/resturant5" >
+        <h3>Click Here To Order</h3>
+
+        </a>
+      </div>
+    </div>
+
+    <div class="h-p-card">
+      <br>
+      <br>
+      <br>
+
+      <div class="H-able-2">
+        <img src="${image2}" width="100"  height="outo" alt="logo">
+      </div>
+
+      <a href="/resturant2">
+
+        <h3>COMING SOON (VIEW MENU)</h3>
+
+      </a>
+    </div>
+
+    <div class="h-p-card">
+      <br>
+      <br>
+      <br>
       <div class="H-able-1">
       <img src="${image4}" width="100"  height="outo" alt="logo">
       </div>
       <a href="/resturant1">
-          <h3>Click Here</h3>
+          <h3>COMING SOON (VIEW MENU)</h3>
 
         </a>
     </div>
-    <div class="h-p-card">
-      <div class="H-able-2">
-        <img src="${image2}" width="100"  height="outo" alt="logo">
-      </div>
-      <a href="/resturant2">
-
-        <h3>Click here</h3>
-
-      </a>
-    </div>
 
     <div class="h-p-card">
-      <div class="H-able-3">
-        <img src="${image3}" width="100"  height="outo" alt="logo">
-      </div>
-      <a href="/resturant5">
-        <h3>Click Here</h3>
-
-      </a>
-    </div>
-    <div class="h-p-card">
+      <br>
+      <br>
+      <br>
       <div class="H-able-4">
         <img src="${image5}" width="100"  height="outo" alt="logo">
 
       </div>
       <a href="/resturant4">
-        <h3>Click Here</h3>
+        <h3>COMING SOON (VIEW MENU)</h3>
 
       </a>
     </div>
+
     <div class="h-p-card">
+      <br>
+      <br>
+      <br>
       <div class="H-able-5">
         <img src="${image11}" width="100"  height="outo" alt="logo">
       </div>
       <a href="/resturant5">
-        <h3>Click Here</h3>
+        <h3>COMING SOON (VIEW MENU)</h3>
 
       </a>
     </div>
+
     <div class="h-p-card">
+      <br>
+      <br>
+      <br>
       <div class="H-able-6">
         <img src="${image12}" width="100"  height="outo" alt="logo">
       </div>
       <a href="/resturant3">
-        <h3>Click Here</h3>
+        <h3>COMING SOON (VIEW MENU)</h3>
 
       </a>
     </div>
@@ -122,35 +156,37 @@ export default state => html`<main>
 
 
 <section class="HomeAdd-Section">
-  <h1>ALL NEW <br>Chinese Cuisine---></h1>
+  <img src="${image3}" width="80px"  height="" alt="logo">
+  <h1>ALL NEW <br>Chinese Cuisine <span>---></span></h1>
+
   <div class="home-iframe-stuff">
     <iframe
 
-      src="https://www.youtube.com/embed/Qc_NsaUzBDA?autoplay=1&mute=1&loop=1&playlist=Qc_NsaUzBDA&controls=0&modestbranding=1&rel=0
-"
+      src="https://www.youtube.com/embed/Qc_NsaUzBDA?autoplay=1&mute=1&loop=1&playlist=Qc_NsaUzBDA&controls=0&modestbranding=1&rel=0"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-</div>
-<div class="add-banner-home">
-  <img src="${image3}" width="100"  height="" alt="logo">
+  </div>
+  <div class="add-banner-home">
 
 
-  <div class="home-banner">
+
+    <div class="home-banner">
+
+    <img src="${image18}" width="200"  height="" alt="menu screenshot">
+
+    <a class="button-homer2 " href="/resturant5"><span><--</span>CHECK US OUT</a>
+      <p>"A haven for lovers of authentic and diverse Chinese Food"</p>
 
 
-    <a class="button-homer2 " href="/resturant5"><--CHECK US OUT</a>
-    <p>"A haven for lovers of authentic and diverse Chinese Food"</p>
+    </div>
+
+
 
 
   </div>
-
-
-
-
-</div>
 
 
 
@@ -171,19 +207,19 @@ export default state => html`<main>
   <h1>HERE IS WHAT PEOPLE ARE SAYING ABOUT FOODAHEAD</h1>
   <div class="image-slider">
     <div class="image-item">
-      <img src="${image6}" alt="image1">
+      <img src="${image13}" alt="image1">
     </div>
     <div class="image-item">
-      <img src="${image7}" alt="image1">
+      <img src="${image14}" alt="image1">
     </div>
     <div class="image-item">
-      <img src="${image8}" alt="image1">
+      <img src="${image15}" alt="image1">
     </div>
     <div class="image-item">
-      <img src="${image9}" alt="image1">
+      <img src="${image16}" alt="image1">
     </div>
     <div class="image-item">
-      <img src="${image10}" alt="image1">
+      <img src="${image17}" alt="image1">
     </div>
   </div>
 
@@ -194,5 +230,5 @@ export default state => html`<main>
 
 
 
-<div class="dotted-line">50% off on first Orders</div>
+<div class="dotted-line">50% off on first Order</div>
 </main>`;
