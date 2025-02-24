@@ -694,7 +694,7 @@ form {
       font-size: 14px;
     }
   } */
-  /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 3) ++++++++++++++++++++++++++= */
+  /* ++++++++++++++++++++++++++++++++++++++ (resturant 3) ++++++++++++++++++++++++++= */
 
   .r3-resturant-hero {
     position: relative;
@@ -922,7 +922,7 @@ form {
       }
     } */
 
-    /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 4) ++++++++++++++++++++++++++= */
+    /* ++++++++++++++++++++++++++++++++++++++ (resturant 4) ++++++++++++++++++++++++++= */
 
   .r4-resturant-hero {
     position: relative;
@@ -1148,14 +1148,57 @@ form {
       }
     } */
 
- /* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 5) ++++++++++++++++++++++++++= */
+ /* ++++++++++++++++++++++++++++++++++++++ (resturant 5) ++++++++++++++++++++++++++= */
+
+.loading-popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+.loading-content {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+#order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+
+  max-width: 90%;
+}
 
 .submitForm {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+
 }
+#submitbutton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
 
 .r5-resturant-hero {
   position: relative;
@@ -1384,7 +1427,7 @@ background-color: #000000;
       }
     }
 
-/* ++++++++++++++++++++++++++++++++++++++ (RESTURANT 6) ++++++++++++++++++++++++++= */
+/* ++++++++++++++++++++++++++++++++++++++ (resturant 6) ++++++++++++++++++++++++++= */
 
 .r6-resturant-hero {
   position: relative;
@@ -1924,7 +1967,7 @@ button.next {
  color: #555;
 }
 /* ================================================BROWSE PAGE NEW CHANGES */
-.restaurant-browse {
+.resturant-browse {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -1932,7 +1975,7 @@ button.next {
   text-align: center;
 }
 
-.restaurant-browse h1 {
+.resturant-browse h1 {
   font-size: 2.5em;
   color: #333;
   margin-bottom: 30px;
@@ -1947,7 +1990,7 @@ button.next {
   list-style: none;
 }
 
-.restaurant-card {
+.resturant-card {
   background-color: #332b2b;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1955,34 +1998,34 @@ button.next {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.restaurant-card:hover {
+.resturant-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.restaurant-card img {
+.resturant-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   transition: opacity 0.3s ease;
 }
 
-.restaurant-card:hover img {
+.resturant-card:hover img {
   opacity: 0.9;
 }
 
-.restaurant-info {
+.resturant-info {
   padding: 20px;
   text-align: left;
 }
 
-.restaurant-info h3 {
+.resturant-info h3 {
   font-size: 1.8em;
   color: #0051ff;
   margin-bottom: 10px;
 }
 
-.restaurant-info p {
+.resturant-info p {
   font-size: 1em;
   color: #ffffff;
   margin-bottom: 20px;
@@ -2736,6 +2779,17 @@ td span#timer {
   .r5-Hero-text> p, .r6-Hero-text> p, .r4-Hero-text> p, .r3-Hero-text> p, .r2-Hero-text> p, .r1-Hero-text> p {
     font-size: 1.2rem;
   }
+  #order {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+  }
+
+  #submitButton {
+    width: auto;
+    margin-left: 10px;
+
+}
 }
 
 @media screen and (max-width: 570px) {

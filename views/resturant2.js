@@ -21,7 +21,7 @@ export default state => html`<main class= "r2-main-Back">
 <div class="r2-resturant-hero">
 
   <div class="r2-Hero-text">
-    <img src="${pic2}" width="200"  height="outo"  alt="logo">
+    <img src="${pic2}" width="200"  height="auto"  alt="logo">
 
     <h1>"i'm into fitness...fitness whole burger in my mouth."</h1>
     <h3>↓ View Menu Below ↓</h3>

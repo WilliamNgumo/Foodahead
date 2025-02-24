@@ -29,8 +29,8 @@ export default state => html`<main class="doctor">
 
 <div  class="r1-AboutyUs" img src=>
   <h1>About Us</h1>
-  <p>William's Italian Restaurant is a true celebration of Italy's rich culinary traditions.
-    Nestled in a charming, inviting setting, the restaurant transports diners <br>straight to the
+  <p>William's Italian resturant is a true celebration of Italy's rich culinary traditions.
+    Nestled in a charming, inviting setting, the resturant transports diners <br>straight to the
     heart of Italy with its warm ambiance, authentic flavors, and impeccable hospitality.
   </p>
 
@@ -66,49 +66,49 @@ export default state => html`<main class="doctor">
       <div class="r1-single-menu">
         <img src="${image1}" alt="">
         <div class="r1-menu-content">
-          <h5>coffee <span>$4.99</span></h5>
-          <p> Savor nutmeg, cinnamon, ginger, and sweetly spiced pumpkin</p>
+          <h5>Coffee <span>$4.99</span></h5>
+          <p> Savor nutmeg, cinnamon, ginger, and sweetly spiced pumpkin.</p>
         </div>
       </div>
       <div class="r1-single-menu">
         <img src="${image2}" alt="">
         <div class="r1-menu-content">
-          <h5>Coca Cola <span>$2.99</span></h5>
+          <h5>Coca-Cola <span>$2.99</span></h5>
           <p> Enjoy the crisp and refreshing taste of Coca‑Cola Original.</p>
         </div>
       </div>
       <div class="r1-single-menu">
         <img src="${image3}" alt="">
         <div class="r1-menu-content">
-          <h5>orange juice <span>$1.99</span></h5>
-          <p>Refresh your self with a Great Tasting orange juice.</p>
+          <h5>Orange Juice <span>$1.99</span></h5>
+          <p>Refresh yourself with a Great-Tasting orange juice.</p>
         </div>
       </div>
     </div>
 
-    <!-- just to knoiw the new column -->
+    <!-- just to know the new column -->
 
     <div class="r1-menu-column">
       <h4>Desserts</h4>
       <div class="r1-single-menu">
         <img src="${image4}" alt="">
         <div class="r1-menu-content">
-          <h5>Chocolate Fudge Brownie ice cream<span>$12.99</span></h5>
-          <p> chocolate non-dairy frozen dessert with fabulously fudgy chocolate brownies</p>
+          <h5>Chocolate Fudge Brownie Ice Cream<span>$12.99</span></h5>
+          <p> Chocolate non-dairy frozen dessert with fabulously fudgy chocolate brownies.</p>
         </div>
       </div>
       <div class="r1-single-menu">
         <img src="${image5}" alt="">
         <div class="r1-menu-content">
           <h5>Black Forest Cake <span>$35</span></h5>
-          <p> rich chocolate ganache, and sweet spiked cherries</p>
+          <p> Rich chocolate ganache, and sweet spiked cherries.</p>
         </div>
       </div>
       <div class="r1-single-menu">
         <img src="${image6}" alt="">
         <div class="r1-menu-content">
           <h5>Chocolate Glazed Donuts <span>$5.99</span></h5>
-          <p> yeast donuts with chocolate frosting are so chocolatey and delicious!</p>
+          <p> Yeast donuts with chocolate frosting are so chocolatey and delicious!</p>
         </div>
       </div>
     </div>
@@ -118,12 +118,12 @@ export default state => html`<main class="doctor">
 
 
     <div class="r1-menu-column">
-      <h4>foods</h4>
+      <h4>Foods</h4>
       <div class="r1-single-menu">
         <img src="${image7}" alt="">
         <div class="r1-menu-content">
           <h5>Shrimp Linguine<span>$60</span></h5>
-          <p> covered in a lemon butter sauce that will have you licking your plate clean!</p>
+          <p> Covered in a lemon butter sauce that will have you licking your plate clean!</p>
         </div>
       </div>
       <div class="r1-single-menu">

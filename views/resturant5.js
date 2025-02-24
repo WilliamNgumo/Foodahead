@@ -18,12 +18,17 @@ import image11 from "url:../assets/pexels-anntarazevich-6937457.jpg";
 
 
 export default state => html`<main>
+  <div id="loadingPopup" class="loading-popup">
+  <div class="loading-content">
+    <p>Loading, please wait...</p>
+  </div>
+</div>
 
 
 
 <div class="r5-resturant-hero">
   <div class="r5-Hero-text">
-  <img src="${image10}" width="300"  height="outo"  alt="italina logo">
+  <img src="${image10}" width="300"  height="auto" loading="lazy" alt="italina logo">
     <h3>↓ View Menu Below ↓</h3>
   </div>
 </div>
@@ -41,7 +46,7 @@ export default state => html`<main>
   <div class="r5-main">
   <div class="r5-section-title">
     <h2>Our Menu</h2>
-    <p>restaurant Italian cuisine</p>
+    <p>Restaurant Italian cuisine</p>
   </div>
   <div class="r5-menus">
     <!-- <img src="${image11}" width="300"  height="500px"  alt="italina logo"> -->
@@ -49,7 +54,7 @@ export default state => html`<main>
     <div class="r5-menu-column">
       <h4>Foods</h4>
       <div class="r5-single-menu">
-        <img src="${image4}" alt="">
+        <img src="${image4}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5> <div id="" >Fried Rice</div> <span>$14</span></h5>
           <p> Stir-fried rice mixed with vegetables, eggs, and sometimes meat or seafood.</p>
@@ -63,7 +68,7 @@ export default state => html`<main>
 
 
       <div class="r5-single-menu">
-        <img src="${image5}" alt="">
+        <img src="${image5}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5>Lo Mein  <span>$15</span></h5>
           <p>Stir-fried noodles tossed with vegetables and protein in a savory sauce.</p>
@@ -71,7 +76,7 @@ export default state => html`<main>
         </div>
       </div>
       <div class="r5-single-menu">
-        <img src="${image6}" alt="">
+        <img src="${image6}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5>Dumplings <span>$12</span></h5>
           <p>Wrappers filled with meat, seafood, or vegetables, either steamed, boiled, or fried.</p>
@@ -86,7 +91,7 @@ export default state => html`<main>
     <div class="r5-menu-column">
       <h4>Desserts</h4>
       <div class="r5-single-menu">
-        <img src="${image3}" alt="">
+        <img src="${image3}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5>Mooncakes<span>$7</span></h5>
           <p>Traditional pastries with sweet or savory fillings, especially popular during the</p>
@@ -94,7 +99,7 @@ export default state => html`<main>
         </div>
       </div>
       <div class="r5-single-menu">
-        <img src="${image2}" alt="">
+        <img src="${image2}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5>Sesame Balls<span>$7</span></h5>
           <p> Fried balls filled with red bean paste, coated in sesame seeds.</p>
@@ -102,7 +107,7 @@ export default state => html`<main>
         </div>
       </div>
       <div class="r5-single-menu">
-        <img src="${image1}" alt="">
+        <img src="${image1}" loading="lazy" alt="">
         <div class="r5-menu-content">
           <h5>Mango Pudding<span>$5.15</span></h5>
           <p> A creamy, sweet dessert made with mango puree and milk.</p>
@@ -118,15 +123,15 @@ export default state => html`<main>
      <div class="r5-menu-column">
           <h4>Drinks</h4>
           <div class="r5-single-menu">
-            <img src="${image7}" alt="">
+            <img src="${image7}" loading="lazy" alt="">
             <div class="r5-menu-content">
               <h5>Orange Juice<span>$2.99</span></h5>
-              <p> Refresh your self with a Great Tasting orange juice.</p>
+              <p> Refresh yourself with a Great Tasting orange juice.</p>
               <input id="orangeJuice" class="menuItem" name="input" type="button" value="Add To Cart"/>
             </div>
           </div>
           <div class="r5-single-menu">
-            <img src="${image8}" alt="">
+            <img src="${image8}" loading="lazy" alt="">
             <div class="r5-menu-content">
               <h5>LEMONADE<span>$2.99</span></h5>
               <p> SQUEEZED WITH FRESH LEMONS</p>
@@ -134,7 +139,7 @@ export default state => html`<main>
             </div>
           </div>
           <div class="r5-single-menu">
-            <img src="${image9}" alt="">
+            <img src="${image9}" loading="lazy" alt="">
             <div class="r5-menu-content">
               <h5>SPRITE <span>$2.99</span></h5>
               <p> NICE COLD SPRITE</p>

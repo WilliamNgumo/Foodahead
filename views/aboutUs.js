@@ -10,7 +10,7 @@ export default () => html`<main>
 <div class="sonk">
 
     <img src="${logo}" alt="logo" width="100" height="auto">
-    <p>“Find Your Perfect Meal, OrderAhead, Enjoy”</p>
+    <p>“Find Your Perfect Meal, Order Ahead, and Enjoy”</p>
 
 </div>
 
@@ -31,12 +31,12 @@ export default () => html`<main>
 <h3>William Ngumo</h3>
 <p>Founder & CEO</p>
 <img class="pictureOfMe" src="${pictureOfMe}" />
-<p>William has been Pationate about building a website that Eases the Stress
-  of dining in at your favorite high-end resturant. <br>Revolutionizing
-  the food industry, brining convenience and quality together to create
-  an amazing experience for food lovers <br> EVERYWHERE.
+<p>William has been passionate about building a website that eases the stress
+  of dining at your favorite high-end restaurant. <br>Revolutionizing
+  the food industry, he is bringing convenience and quality together to create
+  an amazing experience for food lovers <br> everywhere.
 </p>
  </div>
 
- <div class="dotted-line">50% off on first Orders</div>
+ <div class="dotted-line">50% off your first order</div>
 </main>`;

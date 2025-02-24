@@ -22,6 +22,18 @@ function render(state = store.home) {
 
 }
 
+window.addEventListener("load", function() {
+  // Hide loading popup when the page is fully loaded
+  document.getElementById("loadingPopup").style.display = "none";
+});
+
+window.addEventListener("beforeunload", function() {
+  // Show loading popup when the page starts loading
+  document.getElementById("loadingPopup").style.display = "block";
+});
+
+
+
 const addItemToCart = (itemName, price, minutes) => {
   // const existingItem = cart.find(item => item.name === itemName);
   // if (existingItem) {
@@ -141,6 +153,8 @@ router.hooks({
           else {
             cartItems.push(selectedItem);
             console.log(cartItems);
+
+            alert(`${selectedItem.itemName} added to cart!`);
 
           }
         });
