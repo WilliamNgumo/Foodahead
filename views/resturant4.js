@@ -18,7 +18,7 @@ export default state => html`<main>
 
   <div class="r4-resturant-hero">
     <div class="r4-Hero-text">
-    <img src="${image10}" width="300"  height="outo"  alt="italina logo">
+    <img src="${image10}" width="300"  height="auto"  alt="italina logo">
       <h3>↓ View Menu Below ↓</h3>
     </div>
   </div>
@@ -26,7 +26,7 @@ export default state => html`<main>
   <div  class="r4-AboutyUs">
   <h1>About Us</h1>
   <p>Wills INDI Cuisine is Known for its authentic recipes and warm hospitality,
-    the restaurant offers a diverse menu <br>that caters to every palate. From aromatic
+    the resturant offers a diverse menu <br>that caters to every palate. From aromatic
     biryanis and creamy butter chicken to flavorful vegetarian delights
   </p>
 
@@ -42,10 +42,10 @@ export default state => html`<main>
 
   <div class="r4-section-title">
     <h2>Our Menu</h2>
-    <p>restaurant Italian cuisine</p>
+    <p>Restaurant Italian cuisine</p>
   </div>
   <div class="r4-menus">
-    <img src="${image11}" width="300"  height="500px"  alt="italina logo">
+    <img src="${image11}" width="300"  height="500px"  alt="Italian logo">
     <div class="r4-menu-column">
       <h4>food</h4>
       <div class="r4-single-menu">
@@ -108,7 +108,7 @@ export default state => html`<main>
             <img src="${image7}" alt="">
             <div class="r4-menu-content">
               <h5>Orange Juice<span>$2.99</span></h5>
-              <p> Refresh your self with a Great Tasting orange juice.</p>
+              <p> Refresh yourself with a Great Tasting orange juice.</p>
             </div>
           </div>
           <div class="r4-single-menu">

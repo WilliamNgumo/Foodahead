@@ -21,7 +21,7 @@ export default () => html`<main>
   <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
   <input type="submit" name="submit" value="Submit"/>
 
-  <h3>Thanks fo contacting Us!!!</h3>
+  <h3> "Thanks for contacting us!" </h3>
 
 
 
@@ -30,5 +30,5 @@ export default () => html`<main>
 
 </div>
 
-<div class="dotted-line">50% off on first Orders</div>
+<div class="dotted-line">50% off your first order</div>
 </main>`;

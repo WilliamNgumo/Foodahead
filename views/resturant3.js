@@ -23,7 +23,7 @@ export default state => html`<main>
 
 <div class="r3-resturant-hero">
   <div class="r3-Hero-text">
-  <img src="${image10}" width="300"  height="outo"  alt="italina logo">
+  <img src="${image10}" width="300"  height="auto"  alt="italina logo">
     <h3>↓ View Menu Below ↓</h3>
   </div>
 </div>
@@ -49,26 +49,26 @@ export default state => html`<main>
     </div>
     <div class="r3-menus">
       <div class="r3-menu-column">
-        <h4>Speacials</h4>
+        <h4>Specials</h4>
         <div class="r3-single-menu">
           <img src="${image1}" alt="">
         <div class="r3-menu-content">
           <h5>SEAFOOD CUP <span>$25.99</span></h5>
-          <p>Enjoy The Cup With Amazing taste</p>
+          <p>Enjoy The Cup With Amazing taste.</p>
         </div>
       </div>
       <div class="r3-single-menu">
         <img src="${image2}" alt="">
         <div class="r3-menu-content">
           <h5>SEAFOOD OVERLOAD <span>$50</span></h5>
-          <p> Spicy Seafood Soup with Fresh Shellfish</p>
+          <p> Spicy Seafood Soup with Fresh Shellfish.</p>
         </div>
       </div>
       <div class="r3-single-menu">
         <img src="${image3}" alt="">
         <div class="r3-menu-content">
           <h5>SEAFOOD BOIL <span>$70</span></h5>
-          <p>Refresh your self with some yummy Seafood BOIL.</p>
+          <p>Refresh yourself with some yummy Seafood BOIL.</p>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@ export default state => html`<main>
     <!-- just to know the new column -->
 
     <div class="r3-menu-column">
-      <h4>FISh-BASED</h4>
+      <h4>FISH-BASED</h4>
       <div class="r3-single-menu">
         <img src="${image4}" alt="">
         <div class="r3-menu-content">
@@ -88,7 +88,7 @@ export default state => html`<main>
         <img src="${image5}" alt="">
         <div class="r3-menu-content">
           <h5>SUSHI<span>$23.99</span></h5>
-          <p> THREE Suchi</p>
+          <p> THREE Suchi Rolls</p>
         </div>
       </div>
       <div class="r3-single-menu">
